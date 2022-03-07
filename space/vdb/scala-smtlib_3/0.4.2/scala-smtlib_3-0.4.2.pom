@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>space.vdb</groupId>
+    <artifactId>scala-smtlib_3</artifactId>
+    <packaging>jar</packaging>
+    <description>scala-smtlib</description>
+    <version>0.4.2</version>
+    <licenses>
+        <license>
+            <name>MIT-style</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>scala-smtlib</name>
+    <organization>
+        <name>space.vdb</name>
+    </organization>
+    <scm>
+        <url>https://github.com/bramvdbogaerde/scala-smtlib</url>
+        <connection>scm:git:https://github.com/bramvdbogaerde/scala-smtlib.git</connection>
+        <developerConnection>scm:git:git@github.com:bramvdbogaerde/scala-smtlib.git</developerConnection>
+    </scm>
+    <url>https://github.com/regb/scala-smtlib</url>
+    <developers>
+        <developer>
+            <id>reg</id>
+            <name>Regis Blanc</name>
+            <url>http://regblanc.com</url>
+        </developer>
+        <developer>
+            <id>bramvdbogaerde</id>
+            <name>Bram Vandenbogaerde</name>
+            <url>http://vdb.space</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala3-library_3</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_3</artifactId>
+            <version>3.2.11</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.tudo-aqua</groupId>
+            <artifactId>z3-turnkey</artifactId>
+            <version>4.8.14</version>
+        </dependency>
+    </dependencies>
+</project>
